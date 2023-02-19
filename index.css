@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background: #1F2937;
+    padding: 2.5rem;
+    color: white;
+    margin-top: -1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+bold {
+    color: #4ADF86; 
+}
+
+p {
+    margin-top: -2rem;
+    font-size: 26px;
+}
+
+hr {
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2F3E53;
+}
+
+button {
+    border: none;
+    color: white;
+    height: 46px;
+    border-radius: .3em;
+    font-size: 16px;
+}
+.passw {
+    background: #10B981;
+}
+.rand1 {
+    background: #273549;
+    color: #10B981;
+    width: 160.2px;
+    font-size: 16px;
+}
+.rand2 {
+    background: #273549;
+    color: #10B981;
+    width: 160.2px;
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px) and (orientation: landscape) {
+    body {
+    padding: 2.5rem;
+    }
+    h1 {
+    font-size: 4.5rem;
+    }
+    p {
+    margin-top: -2rem;
+    font-size: 26px
+    }
+    button {
+    height: 46px;
+    border-radius: .3em;
+    font-size: 16px
+    }
+    .rand1 {
+    width: 160.2px;
+    font-size: 16px;
+    }
+.rand2 {
+    width: 160.2px;
+    font-size: 16px;
+    }
+}
